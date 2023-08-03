@@ -7,16 +7,16 @@ spring:
       suffix: .jsp            # 뒤에 붙는 경로
       
   datasource:
-    driver-class-name: org.mariadb.cj.jdbc.Driver
-    url: jdbc:mariadb://mariadb-kms.mariadb.database.azure.com:3306/corona?serverTimezone=Asia/Seoul
+    driver-class-name: org.mariadb.jdbc.Driver #org.mariadb.cj.jdbc.Driver 
+    url: jdbc:mariadb://mariadb-kms.mariadb.database.azure.com:3306/thebookHHR?serverTimezone=Asia/Seoul
     username: master
     password: megazone!234
   
   jpa:
     open-in-view: true
     hibernate:
-      ddl-auto: create # 프로젝트 생성시만 create 해준다. - 기존 테이블 삭제 후 재생성 >> 추후 update
-#      ddl-auto: update # 프로젝트 생성시만 create 해준다. - 기존 테이블 삭제 후 재생성 >> 추후 update
+#      ddl-auto: create # 프로젝트 생성시만 create 해준다. - 기존 테이블 삭제 후 재생성 >> 추후 update
+      ddl-auto: update # 프로젝트 생성시만 create 해준다. - 기존 테이블 삭제 후 재생성 >> 추후 update
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       use-new-id-generator-mappings: false  # JPA가 사용하는 기본 넘버링 전략을 따르지 않음
