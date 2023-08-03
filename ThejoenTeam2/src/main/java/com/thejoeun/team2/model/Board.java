@@ -43,6 +43,7 @@ public class Board {
 	@Lob//대용량 데이터
 	private String content;
 	
+	//@SuppressWarnings("unused")
 	private int count;
 	
 	@ManyToOne(fetch = FetchType.EAGER)//한명의 유저가 많은 게시글을 쓸 수 있음 user = one

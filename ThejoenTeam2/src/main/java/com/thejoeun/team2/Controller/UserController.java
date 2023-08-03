@@ -34,13 +34,13 @@ import org.springframework.beans.factory.annotation.Value;
 public class UserController {
 
 	@Value("${cos.key}")
-	   private String cosKey;
+	private String cosKey;
 	
-	   @Autowired
-	   private AuthenticationManager authenticationManager;
-	   
-	   @Autowired
-	   private UserService userService;
+	@Autowired
+	private AuthenticationManager authenticationManager;
+   
+	@Autowired
+	private UserService userService;
 	   
 	
 	@GetMapping("/auth/joinForm")
@@ -70,7 +70,7 @@ public class UserController {
 		//HttpBody오브젝트 생성
 		MultiValueMap<String, String> params = new LinkedMultiValueMap<>();
 		params.add("grant_type", "authorization_code");
-		params.add("client_id", "");
+		params.add("client_id", "e629bfd8e3ae75a62fdc225cda9c4a9c&redirect_uri=http://localhost:8080/auth/kakao/calback&re");
 		params.add("redirect_uri", "http://localhost:8080/auth/kakao/callback");
 		params.add("code", code);
 		
