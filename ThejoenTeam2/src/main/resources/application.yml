@@ -9,7 +9,7 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver #org.mariadb.cj.jdbc.Driver 
     url: jdbc:mariadb://mariadb-kms.mariadb.database.azure.com:3306/thebookHHR?serverTimezone=Asia/Seoul
-    username: master
+    username: master@mariadb-kms
     password: megazone!234
   
   jpa:

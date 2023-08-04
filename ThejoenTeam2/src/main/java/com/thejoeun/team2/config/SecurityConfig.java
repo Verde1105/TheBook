@@ -48,14 +48,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		http
 		.csrf().disable()//csrf 토큰 비활성화(테스트시 걸어두는게 좋음)
 		.authorizeHttpRequests()
-		.antMatchers("/auth/**","/images/**","/css/**","/thejoeun/**","/assets/**","/js/**")
+		.antMatchers("/auth/**","/images/**","/css/**","/thejoeun/**","/assets/**","/js/**")//우리 시큐리티 목줄. (적힌 경로 "만" 허용됨)
 		.permitAll()
 		.anyRequest()
 		.authenticated()
 		.and()
 		.formLogin()
-		.loginPage("/auth/loginForm")
-		.loginProcessingUrl("/auth/loginProc")
-		.defaultSuccessUrl("/thejoeun/index");
+		.loginPage("/auth/loginForm")//로그인 페이지
+		.loginProcessingUrl("/auth/loginProc")//로그인 연산하는곳
+		.defaultSuccessUrl("/thejoeun/index");//기본으로 띄워주는 페이지(로그인 후 돌아오는 페이지)
 	}
 }
