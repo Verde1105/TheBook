@@ -104,6 +104,14 @@
 			<artifactId>mariadb-java-client</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- 마이라 db 추가분 끝 -->
+		<!-- 웹 소캣 추가분 시작 -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-websocket</artifactId>
+    		<version>2.0.4.RELEASE</version>
+		</dependency>
+    	<!-- 웹 소캣 추가분 끝 -->
 	</dependencies>
 
 	<build>
