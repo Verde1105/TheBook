@@ -33,15 +33,6 @@
 						<li><a href="/thejoeun/winter">겨울철 질병</a></li>
 					</ul>
 				</li>
-				<li><a href="/thejoeun/news">오늘의 뉴스 추천</a></li>
-
-				<li>
-					<span class="opener">그래프로 보기</span>
-					<ul>
-						<li><a href="#">온도</a></li>
-						<li><a href="#">코로나</a></li>
-					</ul>
-				</li>
 			</ul>
 		</nav>
 
@@ -50,11 +41,8 @@
 		<!-- Section -->
 			<section>
 				<header class="major">
-					<h2>우리 팀의 다양한 기능을 광고중</h2>
 				</header>
-				<p>사이드바에 위젯 집어넣는 조를 본적이 있느냐,
-					<br>
-					디테일 하나 놓치지 않는 장인정신!
+				<p>
 				</p>
 				<article>
 				<script>
@@ -166,10 +154,6 @@
 
 		<!-- Footer -->
 			<header>
-				<h3>참여명단</h3>
-				<h4>팀원:백재형</h4>
-				<h4>팀원:허윤서</h4>
-				<h4>팀원:황혜림</h4>
 			</header>
 			<footer id="footer">
 			

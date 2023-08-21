@@ -2,8 +2,8 @@
     pageEncoding="UTF-8"%>
 <div class="jumbotron text-center" style="margin-bottom:0">
 			<p>🎃누가 만들었는가</p> 
-			<p>🙏번호</p>
-		 	<p>🏴주소</p>
+			<p>🙏누구겠어 나지</p>
+		 	<p>🏴헿</p>
 		</div>
 		
 		<br>
