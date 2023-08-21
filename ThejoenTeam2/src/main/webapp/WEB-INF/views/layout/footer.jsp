@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <div class="jumbotron text-center" style="margin-bottom:0">
-			<p>팀2 <br> 백재형 <br> 허윤서 <br> 황혜림</p> 
-			<p>🙏검색창을 만들고싶다.</p>
-		 	<p>🏴프로젝트를 만드는 중입니다, 아마도요!</p>
+			<p>검색, 정렬 만들어보기</p> 
+			<p>관리자페이지 혹은 관리자 권한</p>
+		 	<p>초초초초급 개발자</p>
 		</div>
 		
 		<br>
